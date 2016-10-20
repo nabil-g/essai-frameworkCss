@@ -1,0 +1,60 @@
+/* CSS */
+
+
+nav{
+  background-color: rgba(255, 255, 255, 0.5);;
+  padding-left: 20%;
+  padding-right: 20%;
+  position: fixed;
+
+
+}
+
+nav .brand-logo{
+  color: black;
+  margin-left: 100px;
+}
+
+.name{
+  font-weight: bold;
+  color: #11B0CB;
+}
+
+
+
+nav ul {
+  /*margin-right: 20%;*/
+}
+
+nav ul a{
+  color: black;
+}
+
+
+/*BANNIERE*/
+
+.ban{
+  background: url(../img/bg.jpg) no-repeat;
+  height: 500px;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+
+.ban h1{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.btn, .btn-large
+{
+	background-color: #11B0CB;
+
+}
